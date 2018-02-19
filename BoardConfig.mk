@@ -19,12 +19,11 @@ TARGET_BOOTLOADER_BOARD_NAME                := hawaii
 #TARGET_GLOBAL_CPPFLAGS                      += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp -O3 -funsafe-math-optimizations
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE                    := kyleproxx,kylepro,S7582,S7580,GT-S7582,GT-S7580,hawaii
+TARGET_OTA_ASSERT_DEVICE                    := kyleprods,kylepro,S7582,S7580,GT-S7582,GT-S7580,hawaii
 
 # Kernel
 BOARD_MKBOOTIMG_ARGS                        := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_BASE                           := 0x82000000
-BOARD_KERNEL_IMAGE_NAME                     := zImage-dtb
 BOARD_KERNEL_PAGESIZE                       := 4096
 BOARD_KERNEL_OFFSET                         := 0x00008000
 BOARD_RAMDISK_OFFSET                        := 0x01000000
