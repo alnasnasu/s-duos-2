@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#include </home/alnaskabeer/RR/system/core/healthd/include/healthdd.h>
+#include </home/alnaskabeer/RR/system/core/healthd/include/healthd.h>
 
 void
 healthd_board_init(struct healthd_config *config)
